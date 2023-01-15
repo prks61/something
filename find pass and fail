@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int math,phy,chem,total;
+    scanf("%d",&math);
+    scanf("%d",&phy);
+    scanf("%d",&chem);
+    total=(math+phy+chem)/3;
+    if((total<40)||phy<33||chem<33||math<33){
+        printf("%d and you are fail",(int)total);
+        
+    }else{
+        printf("%d and you are fail",(int) total);
+    }
+    
+
+    return 0;
+}
